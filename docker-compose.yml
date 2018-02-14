@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  docker-webpack-eslint-stylelint:
+    image: leocaseiro/webpack-eslint-stylelint
+    build: .
+    environment:
+      NODE_ENV: production
